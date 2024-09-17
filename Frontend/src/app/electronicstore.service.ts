@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root',
 })
 export class ElectroCartService {
-  url: string = 'http://localhost:8086';
+  url: string = 'http://localhost:8080';
 
   category: any = [
     {
